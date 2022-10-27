@@ -1,0 +1,45 @@
+- Variables: Son la manera que se emplea en el lenguaje de programación para guardar los distintos tipos de datos a utilizar, como: números, cadenas de carácter, valores booleanos, entre otros. De manera análoga, son como "cajitas" en las que se pueden guardar distintos tipos de datos para evitar que se pierdan y así poder utilizarlos más adelante en las distintas partes del programa que se este desarrollando. Las variables suelen definirse y crearse mediante alguna palabra que se asocie al dato que se desea almacenar en ellas y con referencia a el tipo de uso que se le va a dar. Ejemplo:
+
+ var miEdad;
+
+Permite definir una varible de nombre "miEdad" para hacer referencia a la edad de una persona y en esta se puede guardar algún dato de tipo númerico que representara la edad de dicha persona.    
+
+- Strings: Son uno de los tipos de datos utilizados en el lenguaje de programación que permite emplear letras y palabras, números y simbolos o una combinación de estos en modo texto para ser asignados y almacenados mediante variables. Este tipo de dato permite valores más descriptivos, ya que se pueden crear cadenas de carácter de distintos tamaño para representar y expresar información diversa en el programa.  Ejemplo:
+
+var miPresentacion = "Hola! mi nombre es Alex";
+
+A la variable "miPresentacion" se le ha asignado un valor "String" que representa una cadena de carácter con el saludo y presentación del nombre de una persona. 
+
+- Funciones: Se pueden entender como un bloque de código que permite agrupar una serie intrucciones y ordenes de forma ordenada para ejecutar una tarea o proceso especifico. Para ello, se valen de expresiónes y sentencias que definen el modo en que debe llevarse a cabo dicho proceso y en qué orden. Las funciones suelen definirse con una nombre que hace referencia a la tarea que permite ejecutar; a su vez estan conformodas por un argumento y por un cuerpo donde se incluyen y agrupan todas las intrucciónes que empleara. 
+
+El argumento es la parte de la función donde se pueden especificar valores de entrada que serán los que se utilizan como elemento principal en el cuerpo para desarrollar cada una de las expresiones y obtener un resultado. Estos valores se les conoce como parametros, que dependiendo el tipo de función y lo que pretende hacer, puede especificarse uno o varios parametros o ninguno.
+
+Para que las funciones devuelvan un resultado, se útiliza en el cuerpo de la misma la palabra reservada "return"; la cual se coloca antes de cada una de las expresiones que arrojaran un resultado final y permite así que dicho resultado se pueda capturar o almacenar en una variable y ser reutilizado en otras partes del código. Por ejemplo:
+
+function sumar(a, b){
+
+	return a + b;
+
+}
+
+Se define una función con nombre "sumar" y un argumento con dos parametros "a y b" que serán utilizados para resolver la expresión suma "a + b" y cuyo resultado será devuelto gracias a la palabra reservada "return". 
+
+- Declaracion "if": Es un termino especial reservado en el lenguaje de programación que se utiliza para establecer una situación condicionada que debe cumplirse para que pueda suceder algo más; es decir, el termino "if" expresa un "Si" condicional antes de una expresión que puede tener dos resultados posibles: verdadero o falso, si o no, mayor o menor, entre otros; y advierte que para uno de los resultados ocurrira algo y para el otro sucedera otra cosa. Ejemplo:
+
+var a = 5;
+var b = 2;
+
+if (a > b){
+
+console.log("Verdadero");
+
+} else {
+
+console.log("Falso");
+
+}
+
+El "if" establece que si "a" es mayor que "b" entonces se mostrara el mensaje "Verdadero" y si "a" no es mayor que "b" entonces se mostrara otro mensaje de "Falso".
+
+- Valores Booleanos (true, false): son de los tipos de datos utilizados en el lenguaje de programación y consta de dos valores, "True"(Verdadero) o "false"(falso), que permiten establecer dos posibles estados o resultados para una situación. De igual modo pueden hacer referencia a estados similares como: Encendido o Apagado, 1 o 0, entre otros. 
+  
