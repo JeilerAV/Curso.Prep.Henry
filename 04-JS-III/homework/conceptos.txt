@@ -1,0 +1,19 @@
+- Array: Un array o arreglo en Español, se puede entender como un conjunto, o agrupación, de uno o más elementos; dichos elementos 
+pueden corresponder a distintos tipos de datos como: booleanos, numeros, strings, funciones, entre otros y/o una combinación de 
+estos. De manera análoga a una variable, los arrays son como cajitas donde se pueden agrupar distintos tipos de datos y estos, pueden 
+o no, formar una lista ordenada dependiendo la cantidad, relación entre estos y el uso que se les dará dentro del código. 
+
+Los arrays se crean utilizando el par de brackets o corchetes "[]" y dentro de estos se va agregando cada elemento separado uno de otro 
+por comas ","; además, se utiliza un índice o key numerico para identificar las posiciones de cada uno en el arreglo, comenzando por el key
+0 para el elemento ubicado en la primera posición y aumentando el índice en 1 para las siguientes. Los arrays pueden asignarse (almacenarse)
+en variables, dandoles así un nombre según el tipo y uso que se les dará. Ejemplos:
+
+var arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    índice (key)    0  1  2  3  4  5  6  7  8  9
+
+var arrayStrings = ["Hola", "Idioma", "Alex", "Carro"];
+    índice (key)      0         1       2        3
+
+En la variable "arrayNumeros" se ha asignado un arraglo que agrupa y lista en modo ascendente los números del 1 al 10, identificados con sus 
+respectivos índices del 0 hasta el 9. De igual modo, la variable "arrayStrings" tiene asignado un arreglo que agrupa distintas palabras sin 
+un orden especifico, con sus índices correspondientes desde el 0 hasta el 3 para la última posición.
